@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# PaStA - Patch Stack Analysis
+#
+# Copyright (c) OTH Regensburg, 2016
+#
+# Author:
+#   Ralf Ramsauer <ralf.ramsauer@othr.de>
+#
+# This work is licensed under the terms of the GNU GPL, version 2.  See
+# the COPYING file in the top-level directory.
+
+cfg=$1
+default_cfg="../common/default.cfg"
+
+UPSTREAM_MAX=$(cat $cfg | grep UPSTREAM_MAX | sed 's/.*= *\(.*\)/\1/')
+DIFFS_LOCATION=$(cat $default_cfg $cfg | grep DIFFS | tail -n 1 | awk '{print $NF}')
+
+function die {
+  echo "$@" 1>&2;
+  exit -1;
+}
+
+echo "Preparing project..."
+
+echo "Creating stack hashes..."
+create_stack_hashes $default_cfg $cfg || die "Create stack hashes failed"
+
+echo "Creating logs..."
+create_diffs ./resources/stack-hashes repo/ $DIFFS_LOCATION $UPSTREAM_MAX || die "Create diffs failed"

@@ -1,0 +1,47 @@
+#!/bin/bash
+
+# PaStA - Patch Stack Analysis
+#
+# Copyright (c) OTH Regensburg, 2016
+#
+# Author:
+#   Ralf Ramsauer <ralf.ramsauer@othr.de>
+#
+# This work is licensed under the terms of the GNU GPL, version 2.  See
+# the COPYING file in the top-level directory.
+
+STACK_HASHES_DIR=$1
+REPO=$2
+DIFFS_DIR=$3
+MAINLINE=$4
+NPROC=$(nproc)
+
+mkdir -p $DIFFS_DIR
+
+echo "Calculating all commit hashes..."
+tmp=$(mktemp)
+cat $STACK_HASHES_DIR/* > $tmp
+
+all_hashes=$(mktemp)
+cat $tmp | sort | uniq > $all_hashes
+rm $tmp
+
+existing_hashes=$(mktemp)
+find $DIFFS_DIR -type f | awk '{print $NF}' FS=/ | sort > $existing_hashes
+
+hashes=$(mktemp)
+cat $all_hashes $existing_hashes | sort | uniq -u > $hashes
+rm $all_hashes $existing_hashes
+
+num=$(wc -l < $hashes)
+echo "Rolling out diffs for $num commits..."
+
+# some magic
+cat $hashes | \
+	xargs -n 1 -P $NPROC -I {} \
+		bash -c 'DIR=$(echo $2 | sed -e "s/\(..\)\(..\).*/\1\/\2/"); \
+				 mkdir -p $3/$DIR; \
+				 git -C $1 --no-pager show --diff-algorithm=myers --pretty=format:"" $2 > $3/${DIR}/$2' \
+			-- "$REPO" "{}" "$DIFFS_DIR"
+
+rm $hashes

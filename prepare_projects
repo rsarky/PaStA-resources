@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Copyright (c) OTH Regensburg, 2016
+#
+# Author:
+#   Ralf Ramsauer <ralf.ramsauer@othr.de>
+#
+# This work is licensed under the terms of the GNU GPL, version 2.  See
+# the COPYING file in the top-level directory.
+
+PATH=$PATH:../common/bin
+
+projects=()
+
+function die {
+  echo "$@" 1>&2;
+  exit -1;
+}
+
+git submodule update --init || die "submodule update failed"
+
+for project in "${projects[@]}"
+do
+  cd $project
+  prepare_project ${project}.cfg || die "prepare_project failed for: $project"
+  cd ..
+done
