@@ -10,7 +10,7 @@
 
 PATH=$PATH:../common/bin
 
-projects=()
+projects=("PreemptRT")
 
 function die {
   echo "$@" 1>&2;

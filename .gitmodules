@@ -1,0 +1,3 @@
+[submodule "PreemptRT/repo"]
+	path = PreemptRT/repo
+	url = https://github.com/lfd/PreemptRT.git
