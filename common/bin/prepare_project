@@ -25,6 +25,3 @@ echo "Preparing project..."
 
 echo "Creating stack hashes..."
 create_stack_hashes $default_cfg $cfg || die "Create stack hashes failed"
-
-echo "Creating logs..."
-create_diffs ./resources/stack-hashes repo/ $DIFFS_LOCATION $UPSTREAM_MAX || die "Create diffs failed"
