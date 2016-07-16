@@ -635,6 +635,7 @@ StackVersion Branch StackReleaseDate BaseVersion BaseCommit BaseReleaseDate
 3.14.72-rt75 origin/preemptrt-3.14.72-rt75 2016-06-25 3.14.72 v3.14.72 2016-06-07
 3.14.72-rt76 origin/preemptrt-3.14.72-rt76 2016-07-14 3.14.72 v3.14.72 2016-06-07
 3.14.73-rt77 origin/preemptrt-3.14.73-rt77 2016-07-15 3.14.73 v3.14.73 2016-06-24
+3.14.73-rt78 origin/preemptrt-3.14.73-rt78 2016-07-16 3.14.73 v3.14.73 2016-06-24
 ## 3.18-rt
 3.18.7-rt1 origin/preemptrt-3.18.7-rt1 2015-02-16 3.18.7 v3.18.7 2015-02-11
 3.18.7-rt2 origin/preemptrt-3.18.7-rt2 2015-02-23 3.18.7 v3.18.7 2015-02-11
