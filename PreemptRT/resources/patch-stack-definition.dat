@@ -776,3 +776,5 @@ StackVersion Branch StackReleaseDate BaseVersion BaseCommit BaseReleaseDate
 4.8.6-rt5 origin/preemptrt-4.8.6-rt5 2016-10-31 4.8.6 v4.8.6 2016-10-31
 4.8.11-rt6 origin/preemptrt-4.8.11-rt6 2016-12-01 4.8.11 v4.8.11 2016-11-26
 4.8.11-rt7 origin/preemptrt-4.8.11-rt7 2016-12-01 4.8.11 v4.8.11 2016-11-26
+4.8.14-rt8 origin/preemptrt-4.8.14-rt8 2016-12-12 4.8.14 v4.8.14 2016-12-10
+4.8.14-rt9 origin/preemptrt-4.8.14-rt9 2016-12-12 4.8.14 v4.8.14 2016-12-10
