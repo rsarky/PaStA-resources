@@ -10,18 +10,22 @@
 
 PATH=$PATH:../common/bin
 
-projects=("PreemptRT")
-
 function die {
   echo "$@" 1>&2;
   exit -1;
 }
 
-git submodule update --init || die "submodule update failed"
+if [ -z "$1" ]
+then
+	projects=$(find -mindepth 1 -maxdepth 1 -type d)
+else
+	projects=$1
+fi
 
-for project in "${projects[@]}"
+for project in $projects
 do
-  cd $project
-  prepare_project ${project}.cfg || die "prepare_project failed for: $project"
-  cd ..
+	cd $project
+	git submodule update --init repo || die "submodule update failed"
+	prepare_project ${project}.cfg || die "prepare_project failed for: $project"
+	cd ..
 done
