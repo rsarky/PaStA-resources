@@ -1,3 +1,6 @@
 [submodule "PreemptRT/repo"]
 	path = PreemptRT/repo
 	url = https://github.com/lfd/PreemptRT.git
+[submodule "busybox/repo"]
+	path = busybox/repo
+	url = git://git.busybox.net/busybox
