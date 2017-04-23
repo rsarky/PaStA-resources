@@ -25,7 +25,15 @@ fi
 for project in $projects
 do
 	cd $project
-	git submodule update --init repo || die "submodule update failed"
-	prepare_project ${project}.cfg || die "prepare_project failed for: $project"
+	# check if repository is a subrepo
+	git -C repo rev-parse 2>/dev/null
+	if [ $? == "0" ]
+	then
+		echo "Subrepo found. Updating Subrepo."
+		git submodule update --init repo || \
+			die "submodule update failed"
+	fi
+	prepare_project ${project}.cfg || \
+		die "prepare_project failed for: $project"
 	cd ..
 done
