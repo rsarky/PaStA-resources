@@ -13,15 +13,10 @@
 cfg=$1
 default_cfg="../common/default.cfg"
 
-UPSTREAM_MAX=$(cat $cfg | grep UPSTREAM_MAX | sed 's/.*= *\(.*\)/\1/')
-DIFFS_LOCATION=$(cat $default_cfg $cfg | grep DIFFS | tail -n 1 | awk '{print $NF}')
-
 function die {
   echo "$@" 1>&2;
   exit -1;
 }
-
-echo "Preparing project..."
 
 echo "Creating stack hashes..."
 create_stack_hashes $default_cfg $cfg || die "Create stack hashes failed"
