@@ -4,3 +4,6 @@
 [submodule "busybox/repo"]
 	path = busybox/repo
 	url = git://git.busybox.net/busybox
+[submodule "linux/repo"]
+	path = linux/repo
+	url = https://github.com/torvalds/linux.git
