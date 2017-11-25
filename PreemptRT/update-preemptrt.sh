@@ -42,6 +42,7 @@ declare -a corrupt_stacks=(
 3.8.13.14-rt31
 3.8.13.7-rt18
 3.8.13.9-rt20
+4.1.46-rt52-rc1
 )
 
 function die {
