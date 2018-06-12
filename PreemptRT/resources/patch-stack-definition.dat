@@ -723,6 +723,8 @@ StackVersion Branch StackReleaseDate BaseVersion BaseCommit BaseReleaseDate
 3.18.82-rt88 origin/preemptrt-3.18.82-rt88 2017-11-23 3.18.82 v3.18.82 2017-11-18
 3.18.91-rt97 origin/preemptrt-3.18.91-rt97 2018-01-13 3.18.91 v3.18.91 2018-01-02
 3.18.91-rt98 origin/preemptrt-3.18.91-rt98 2018-01-17 3.18.91 v3.18.91 2018-01-02
+3.18.104-rt101 origin/preemptrt-3.18.104-rt101 2018-04-23 3.18.104 v3.18.104 2018-04-10
+3.18.109-rt102 origin/preemptrt-3.18.109-rt102 2018-05-23 3.18.109 v3.18.109 2018-05-16
 ## 4.0-rt
 4.0.4-rt1 origin/preemptrt-4.0.4-rt1 2015-05-19 4.0.4 v4.0.4 2015-05-17
 4.0.5-rt2 origin/preemptrt-4.0.5-rt2 2015-06-11 4.0.5 v4.0.5 2015-06-06
@@ -822,6 +824,9 @@ StackVersion Branch StackReleaseDate BaseVersion BaseCommit BaseReleaseDate
 4.4.115-rt130 origin/preemptrt-4.4.115-rt130 2018-02-08 4.4.115 v4.4.115 2018-02-03
 4.4.120-rt135 origin/preemptrt-4.4.120-rt135 2018-03-09 4.4.120 v4.4.120 2018-03-03
 4.4.126-rt141 origin/preemptrt-4.4.126-rt141 2018-04-04 4.4.126 v4.4.126 2018-03-31
+4.4.126-rt142 origin/preemptrt-4.4.126-rt142 2018-05-02 4.4.126 v4.4.126 2018-03-31
+4.4.131-rt147 origin/preemptrt-4.4.131-rt147 2018-05-04 4.4.131 v4.4.131 2018-05-02
+4.4.131-rt148 origin/preemptrt-4.4.131-rt148 2018-05-09 4.4.131 v4.4.131 2018-05-02
 ## 4.6-rt
 4.6-rc7-rt1 origin/preemptrt-4.6-rc7-rt1 2016-05-13 4.6-rc7 v4.6-rc7 2016-05-08
 4.6.1-rt2 origin/preemptrt-4.6.1-rt2 2016-06-02 4.6.1 v4.6.1 2016-06-01
@@ -882,6 +887,7 @@ StackVersion Branch StackReleaseDate BaseVersion BaseCommit BaseReleaseDate
 4.9.68-rt60 origin/preemptrt-4.9.68-rt60 2017-12-16 4.9.68 v4.9.68 2017-12-09
 4.9.76-rt61 origin/preemptrt-4.9.76-rt61 2018-01-16 4.9.76 v4.9.76 2018-01-10
 4.9.84-rt62 origin/preemptrt-4.9.84-rt62 2018-02-27 4.9.84 v4.9.84 2018-02-25
+4.9.98-rt76 origin/preemptrt-4.9.98-rt76 2018-05-10 4.9.98 v4.9.98 2018-05-01
 ## 4.11-rt
 4.11.5-rt1 origin/preemptrt-4.11.5-rt1 2017-06-16 4.11.5 v4.11.5 2017-06-14
 4.11.7-rt2 origin/preemptrt-4.11.7-rt2 2017-06-27 4.11.7 v4.11.7 2017-06-24
@@ -933,3 +939,12 @@ StackVersion Branch StackReleaseDate BaseVersion BaseCommit BaseReleaseDate
 4.14.29-rt25 origin/preemptrt-4.14.29-rt25 2018-03-25 4.14.29 v4.14.29 2018-03-21
 4.14.34-rt26 origin/preemptrt-4.14.34-rt26 2018-04-13 4.14.34 v4.14.34 2018-04-12
 4.14.34-rt27 origin/preemptrt-4.14.34-rt27 2018-04-13 4.14.34 v4.14.34 2018-04-12
+4.14.39-rt28 origin/preemptrt-4.14.39-rt28 2018-05-03 4.14.39 v4.14.39 2018-05-01
+4.14.39-rt29 origin/preemptrt-4.14.39-rt29 2018-05-03 4.14.39 v4.14.39 2018-05-01
+4.14.40-rt30 origin/preemptrt-4.14.40-rt30 2018-05-14 4.14.40 v4.14.40 2018-05-09
+## 4.16-rt
+4.16.7-rt1 origin/preemptrt-4.16.7-rt1 2018-05-03 4.16.7 v4.16.7 2018-05-01
+4.16.8-rt2 origin/preemptrt-4.16.8-rt2 2018-05-18 4.16.8 v4.16.8 2018-05-09
+4.16.8-rt3 origin/preemptrt-4.16.8-rt3 2018-05-18 4.16.8 v4.16.8 2018-05-09
+4.16.12-rt4 origin/preemptrt-4.16.12-rt4 2018-05-29 4.16.12 v4.16.12 2018-05-25
+4.16.12-rt5 origin/preemptrt-4.16.12-rt5 2018-05-29 4.16.12 v4.16.12 2018-05-25
