@@ -7,3 +7,6 @@
 [submodule "linux/repo"]
 	path = linux/repo
 	url = https://github.com/torvalds/linux.git
+[submodule "qemu/repo"]
+	path = qemu/repo
+	url = https://github.com/qemu/qemu.git
