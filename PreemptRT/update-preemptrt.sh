@@ -43,6 +43,7 @@ declare -a corrupt_stacks=(
 3.8.13.7-rt18
 3.8.13.9-rt20
 4.1.46-rt52-rc1
+4.9.115-rt94-rc1
 # erroneous version numbering
 4.9.61-rt61
 )
