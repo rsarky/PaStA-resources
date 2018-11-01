@@ -10,3 +10,6 @@
 [submodule "qemu/repo"]
 	path = qemu/repo
 	url = https://github.com/qemu/qemu.git
+[submodule "jailhouse/repo"]
+	path = jailhouse/repo
+	url = https://github.com/siemens/jailhouse.git
