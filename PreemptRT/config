@@ -1,6 +1,7 @@
 [PaStA]
 ### Project name. Should not contain whitespaces ###
 PROJECT_NAME = PreemptRT
+MODE = patchstack
 
 ### necessary for upstream comparison. Patches within this range will be considered ###
 UPSTREAM = v3.0..v4.17

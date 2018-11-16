@@ -1,6 +1,7 @@
 [PaStA]
 ### Project name. Should not contain whitespaces ###
 PROJECT_NAME = Linux
+MODE = mbox
 
 ### necessary for upstream comparison. Patches within this range will be considered ###
 UPSTREAM = v2.6.12-rc2..v4.19
