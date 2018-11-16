@@ -23,3 +23,12 @@ MBOX_MAXDATE = 2030-01-01
 [MBOX_RAW]
 # listname = filename
 # ...
+
+[MBOX_GIT_PUBLIC_INBOX]
+lkml = ["mboxes/lkml-0",
+	"mboxes/lkml-1",
+	"mboxes/lkml-2",
+	"mboxes/lkml-3",
+	"mboxes/lkml-4",
+	"mboxes/lkml-5",
+	"mboxes/lkml-6"]

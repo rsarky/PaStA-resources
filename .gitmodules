@@ -13,3 +13,24 @@
 [submodule "jailhouse/repo"]
 	path = jailhouse/repo
 	url = https://github.com/siemens/jailhouse.git
+[submodule "linux/mboxes/lkml-0"]
+	path = linux/mboxes/lkml-0
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/lkml/0.git
+[submodule "linux/mboxes/lkml-1"]
+	path = linux/mboxes/lkml-1
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/lkml/1.git
+[submodule "linux/mboxes/lkml-3"]
+	path = linux/mboxes/lkml-3
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/lkml/3.git
+[submodule "linux/mboxes/lkml-4"]
+	path = linux/mboxes/lkml-4
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/lkml/4.git
+[submodule "linux/mboxes/lkml-5"]
+	path = linux/mboxes/lkml-5
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/lkml/5.git
+[submodule "linux/mboxes/lkml-6"]
+	path = linux/mboxes/lkml-6
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/lkml/6.git
+[submodule "linux/mboxes/lkml-2"]
+	path = linux/mboxes/lkml-2
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/lkml/2.git
