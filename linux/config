@@ -16,5 +16,10 @@ DIFF_LINES_RATIO = 0.4
 MESSAGE_DIFF_WEIGHT = 0.3
 
 ### Used for parsing mailinglists ###
+[MBOX]
 MBOX_MINDATE = 2005-04-16
 MBOX_MAXDATE = 2030-01-01
+
+[MBOX_RAW]
+# listname = filename
+# ...
