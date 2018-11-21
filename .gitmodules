@@ -34,3 +34,42 @@
 [submodule "linux/mboxes/lkml-2"]
 	path = linux/mboxes/lkml-2
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/lkml/2.git
+[submodule "linux/mboxes/linux-wireless-0"]
+	path = linux/mboxes/linux-wireless-0
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-wireless/0.git
+[submodule "linux/mboxes/linux-sgx-0"]
+	path = linux/mboxes/linux-sgx-0
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-sgx/0.git
+[submodule "linux/mboxes/linux-security-module-0"]
+	path = linux/mboxes/linux-security-module-0
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-security-module/0.git
+[submodule "linux/mboxes/linux-rtc-0"]
+	path = linux/mboxes/linux-rtc-0
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-rtc/0.git
+[submodule "linux/mboxes/linux-pci-0"]
+	path = linux/mboxes/linux-pci-0
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-pci/0.git
+[submodule "linux/mboxes/linux-parisc-0"]
+	path = linux/mboxes/linux-parisc-0
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-parisc/0.git
+[submodule "linux/mboxes/linux-nfs-0"]
+	path = linux/mboxes/linux-nfs-0
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-nfs/0.git
+[submodule "linux/mboxes/linux-integrity-0"]
+	path = linux/mboxes/linux-integrity-0
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-integrity/0.git
+[submodule "linux/mboxes/linux-clk-0"]
+	path = linux/mboxes/linux-clk-0
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-clk/0.git
+[submodule "linux/mboxes/linux-btrfs-0"]
+	path = linux/mboxes/linux-btrfs-0
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-btrfs/0.git
+[submodule "linux/mboxes/linux-bluetooth-0"]
+	path = linux/mboxes/linux-bluetooth-0
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-bluetooth/0.git
+[submodule "linux/mboxes/linux-block-0"]
+	path = linux/mboxes/linux-block-0
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-block/0.git
+[submodule "linux/mboxes/linuxppc-dev-0"]
+	path = linux/mboxes/linuxppc-dev-0
+	url = git://git.kernel.org/pub/scm/public-inbox/lists.ozlabs.org/linuxppc-dev/0.git
