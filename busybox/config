@@ -4,7 +4,7 @@ PROJECT_NAME = busybox
 MODE = mbox
 
 ### necessary for upstream comparison. Patches within this range will be considered ###
-UPSTREAM = 1_12_0-5749-g3505e38bd
+UPSTREAM = origin/master
 
 ### Blacklist of upstream commit hashes to ignore for upstream comparison ###
 UPSTREAM_BLACKLIST =
