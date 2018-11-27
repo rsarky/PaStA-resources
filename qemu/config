@@ -4,10 +4,10 @@ PROJECT_NAME = Qemu
 MODE = mbox
 
 ### necessary for upstream comparison. Patches within this range will be considered ###
-UPSTREAM = v0.1.0..v3.0.0-287-g13b7b18850
+UPSTREAM = origin/master
 
 ### Blacklist of upstream commit hashes to ignore for upstream comparison ###
-UPSTREAM_BLACKLIST = qemu-blacklist
+UPSTREAM_BLACKLIST = 
 
 ### Project specific autothresholds for interactive rating ###
 INTERACTIVE_THRESHOLD = 1.1
