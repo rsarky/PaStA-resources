@@ -14,62 +14,62 @@
 	path = jailhouse/repo
 	url = https://github.com/siemens/jailhouse.git
 [submodule "linux/mboxes/lkml-0"]
-	path = linux/mboxes/lkml-0
+	path = linux/resources/mbox/pubin/lkml-0
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/lkml/0.git
 [submodule "linux/mboxes/lkml-1"]
-	path = linux/mboxes/lkml-1
+	path = linux/resources/mbox/pubin/lkml-1
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/lkml/1.git
 [submodule "linux/mboxes/lkml-3"]
-	path = linux/mboxes/lkml-3
+	path = linux/resources/mbox/pubin/lkml-3
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/lkml/3.git
 [submodule "linux/mboxes/lkml-4"]
-	path = linux/mboxes/lkml-4
+	path = linux/resources/mbox/pubin/lkml-4
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/lkml/4.git
 [submodule "linux/mboxes/lkml-5"]
-	path = linux/mboxes/lkml-5
+	path = linux/resources/mbox/pubin/lkml-5
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/lkml/5.git
 [submodule "linux/mboxes/lkml-6"]
-	path = linux/mboxes/lkml-6
+	path = linux/resources/mbox/pubin/lkml-6
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/lkml/6.git
 [submodule "linux/mboxes/lkml-2"]
-	path = linux/mboxes/lkml-2
+	path = linux/resources/mbox/pubin/lkml-2
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/lkml/2.git
 [submodule "linux/mboxes/linux-wireless-0"]
-	path = linux/mboxes/linux-wireless-0
+	path = linux/resources/mbox/pubin/linux-wireless-0
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-wireless/0.git
 [submodule "linux/mboxes/linux-sgx-0"]
-	path = linux/mboxes/linux-sgx-0
+	path = linux/resources/mbox/pubin/linux-sgx-0
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-sgx/0.git
 [submodule "linux/mboxes/linux-security-module-0"]
-	path = linux/mboxes/linux-security-module-0
+	path = linux/resources/mbox/pubin/linux-security-module-0
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-security-module/0.git
 [submodule "linux/mboxes/linux-rtc-0"]
-	path = linux/mboxes/linux-rtc-0
+	path = linux/resources/mbox/pubin/linux-rtc-0
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-rtc/0.git
 [submodule "linux/mboxes/linux-pci-0"]
-	path = linux/mboxes/linux-pci-0
+	path = linux/resources/mbox/pubin/linux-pci-0
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-pci/0.git
 [submodule "linux/mboxes/linux-parisc-0"]
-	path = linux/mboxes/linux-parisc-0
+	path = linux/resources/mbox/pubin/linux-parisc-0
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-parisc/0.git
 [submodule "linux/mboxes/linux-nfs-0"]
-	path = linux/mboxes/linux-nfs-0
+	path = linux/resources/mbox/pubin/linux-nfs-0
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-nfs/0.git
 [submodule "linux/mboxes/linux-integrity-0"]
-	path = linux/mboxes/linux-integrity-0
+	path = linux/resources/mbox/pubin/linux-integrity-0
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-integrity/0.git
 [submodule "linux/mboxes/linux-clk-0"]
-	path = linux/mboxes/linux-clk-0
+	path = linux/resources/mbox/pubin/linux-clk-0
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-clk/0.git
 [submodule "linux/mboxes/linux-btrfs-0"]
-	path = linux/mboxes/linux-btrfs-0
+	path = linux/resources/mbox/pubin/linux-btrfs-0
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-btrfs/0.git
 [submodule "linux/mboxes/linux-bluetooth-0"]
-	path = linux/mboxes/linux-bluetooth-0
+	path = linux/resources/mbox/pubin/linux-bluetooth-0
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-bluetooth/0.git
 [submodule "linux/mboxes/linux-block-0"]
-	path = linux/mboxes/linux-block-0
+	path = linux/resources/mbox/pubin/linux-block-0
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-block/0.git
 [submodule "linux/mboxes/linuxppc-dev-0"]
-	path = linux/mboxes/linuxppc-dev-0
+	path = linux/resources/mbox/pubin/linuxppc-dev-0
 	url = git://git.kernel.org/pub/scm/public-inbox/lists.ozlabs.org/linuxppc-dev/0.git

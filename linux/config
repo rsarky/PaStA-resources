@@ -25,23 +25,23 @@ MBOX_MAXDATE = 2030-01-01
 # ...
 
 [MBOX_GIT_PUBLIC_INBOX]
-lkml = ["mboxes/lkml-0",
-	"mboxes/lkml-1",
-	"mboxes/lkml-2",
-	"mboxes/lkml-3",
-	"mboxes/lkml-4",
-	"mboxes/lkml-5",
-	"mboxes/lkml-6"]
-linux-block = ["mboxes/linux-block-0"]
-linux-bluetooth = ["mboxes/linux-bluetooth-0"]
-linux-btrfs = ["mboxes/linux-btrfs-0"]
-linux-clk = ["mboxes/linux-clk-0"]
-linux-integrity = ["mboxes/linux-integrity-0"]
-linux-nfs = ["mboxes/linux-nfs-0"]
-linux-parisc = ["mboxes/linux-parisc-0"]
-linux-pci = ["mboxes/linux-pci-0"]
-linux-rtc = ["mboxes/linux-rtc-0"]
-linux-security-module = ["mboxes/linux-security-module-0"]
-linux-sgx = ["mboxes/linux-sgx-0"]
-linux-wireless = ["mboxes/linux-wireless-0"]
-linuxppc-dev = ["mboxes/linuxppc-dev-0"]
+lkml = ["lkml-0",
+	"lkml-1",
+	"lkml-2",
+	"lkml-3",
+	"lkml-4",
+	"lkml-5",
+	"lkml-6"]
+linux-block = ["linux-block-0"]
+linux-bluetooth = ["linux-bluetooth-0"]
+linux-btrfs = ["linux-btrfs-0"]
+linux-clk = ["linux-clk-0"]
+linux-integrity = ["linux-integrity-0"]
+linux-nfs = ["linux-nfs-0"]
+linux-parisc = ["linux-parisc-0"]
+linux-pci = ["linux-pci-0"]
+linux-rtc = ["linux-rtc-0"]
+linux-security-module = ["linux-security-module-0"]
+linux-sgx = ["linux-sgx-0"]
+linux-wireless = ["linux-wireless-0"]
+linuxppc-dev = ["linuxppc-dev-0"]
