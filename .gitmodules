@@ -73,3 +73,6 @@
 [submodule "linux/mboxes/linuxppc-dev-0"]
 	path = linux/resources/mbox/pubin/linuxppc-dev-0
 	url = git://git.kernel.org/pub/scm/public-inbox/lists.ozlabs.org/linuxppc-dev/0.git
+[submodule "u-boot/repo"]
+	path = u-boot/repo
+	url = git://git.denx.de/u-boot.git
