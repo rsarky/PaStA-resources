@@ -25,23 +25,31 @@ MBOX_MAXDATE = 2030-01-01
 # ...
 
 [MBOX_GIT_PUBLIC_INBOX]
-lkml = ["lkml-0",
-	"lkml-1",
-	"lkml-2",
-	"lkml-3",
-	"lkml-4",
-	"lkml-5",
-	"lkml-6"]
-linux-block = ["linux-block-0"]
-linux-bluetooth = ["linux-bluetooth-0"]
-linux-btrfs = ["linux-btrfs-0"]
-linux-clk = ["linux-clk-0"]
-linux-integrity = ["linux-integrity-0"]
-linux-nfs = ["linux-nfs-0"]
-linux-parisc = ["linux-parisc-0"]
-linux-pci = ["linux-pci-0"]
-linux-rtc = ["linux-rtc-0"]
-linux-security-module = ["linux-security-module-0"]
-linux-sgx = ["linux-sgx-0"]
-linux-wireless = ["linux-wireless-0"]
-linuxppc-dev = ["linuxppc-dev-0"]
+# A mailing list that uses public inboxes may consist of several public
+# inboxes. Those inboxes are specified in a comma separated list:
+#
+# listname = pub-inbox-1
+# listname = pub-inbox-1, pub-inbox-2[, ...]
+#
+# Those inboxes must be locates at
+# resources/project_name/resources/mbox/pubin/pub-inbox-X and should be added
+# as git submodules of the PaStA-resources repositories.
+#
+# Nevertheless, absolute paths are supported as well:
+#
+# listname = /some/location/pub-inbox-0[, ...]
+
+lkml = lkml-0, lkml-1, lkml-2, lkml-3, lkml-4, lkml-5, lkml-6
+linux-block = linux-block-0
+linux-bluetooth = linux-bluetooth-0
+linux-btrfs = linux-btrfs-0
+linux-clk = linux-clk-0
+linux-integrity = linux-integrity-0
+linux-nfs = linux-nfs-0
+linux-parisc = linux-parisc-0
+linux-pci = linux-pci-0
+linux-rtc = linux-rtc-0
+linux-security-module = linux-security-module-0
+linux-sgx = linux-sgx-0
+linux-wireless = linux-wireless-0
+linuxppc-dev = linuxppc-dev-0
