@@ -4,7 +4,7 @@ PROJECT_NAME = Qemu
 MODE = mbox
 
 ### necessary for upstream comparison. Patches within this range will be considered ###
-UPSTREAM = origin/master
+UPSTREAM = 991a97ac7434d09f5ecf3e185371b48b699042cf
 
 ### Blacklist of upstream commit hashes to ignore for upstream comparison ###
 UPSTREAM_BLACKLIST = 
@@ -14,8 +14,11 @@ INTERACTIVE_THRESHOLD = 1.1
 AUTOACCEPT_THRESHOLD = 0.82
 DIFF_LINES_RATIO = 0.4
 MESSAGE_DIFF_WEIGHT = 0.3
-AUTHOR_DATE_INTERVAL = 365
+# AUTHOR_DATE_INTERVAL = 365
 
 [MBOX]
-MBOX_MINDATE = 2005-04-16
-MBOX_MAXDATE = 2030-01-01
+MBOX_MINDATE = 2003-01-01
+MBOX_MAXDATE = 2018-01-01
+
+[MBOX_RAW]
+qemu-passau = /mnt/rackstation/mboxes/passau-mboxes/gmane.comp.emulators.qemu-complete.mbox
