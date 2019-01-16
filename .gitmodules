@@ -82,3 +82,6 @@
 [submodule "linux/resources/mbox/pubin/linux-netdev-1"]
 	path = linux/resources/mbox/pubin/linux-netdev-1
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/netdev/1.git
+[submodule "git/repo"]
+	path = git/repo
+	url = https://github.com/git/git.git
