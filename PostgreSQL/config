@@ -1,0 +1,16 @@
+[PaStA]
+### Project name. Should not contain whitespaces ###
+PROJECT_NAME = PostgreSQL
+MODE = mbox
+
+### necessary for upstream comparison. Patches within this range will be considered ###
+UPSTREAM = origin/master
+
+### Blacklist of upstream commit hashes to ignore for upstream comparison ###
+UPSTREAM_BLACKLIST = PostgreSQL-blacklist
+
+### Project specific autothresholds for interactive rating ###
+INTERACTIVE_THRESHOLD = 1.1
+AUTOACCEPT_THRESHOLD = 0.82
+DIFF_LINES_RATIO = 0.4
+MESSAGE_DIFF_WEIGHT = 0.3
