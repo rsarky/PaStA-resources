@@ -4,7 +4,7 @@ PROJECT_NAME = PostgreSQL
 MODE = mbox
 
 ### necessary for upstream comparison. Patches within this range will be considered ###
-UPSTREAM = origin/master
+UPSTREAM = 9373baa0f764392c504df034afd2f6b178c29491
 
 ### Blacklist of upstream commit hashes to ignore for upstream comparison ###
 UPSTREAM_BLACKLIST = PostgreSQL-blacklist
@@ -14,3 +14,6 @@ INTERACTIVE_THRESHOLD = 1.1
 AUTOACCEPT_THRESHOLD = 0.82
 DIFF_LINES_RATIO = 0.4
 MESSAGE_DIFF_WEIGHT = 0.3
+
+[MBOX_RAW]
+passau-postgresql = /mnt/rackstation/mboxes/passau-mboxes/gmane.comp.db.postgresql.devel.general.mbox
