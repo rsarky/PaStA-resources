@@ -88,3 +88,6 @@
 [submodule "OpenSSL/repo"]
 	path = OpenSSL/repo
 	url = git://git.openssl.org/openssl.git
+[submodule "wine/repo"]
+	path = wine/repo
+	url = https://github.com/wine-mirror/wine.git
