@@ -4,7 +4,7 @@ PROJECT_NAME = httpd
 MODE = mbox
 
 ### necessary for upstream comparison. Patches within this range will be considered ###
-UPSTREAM = origin/trunk
+UPSTREAM = 9558231797f9efe2c0c88b6999cb96ddc650387f
 
 ### Blacklist of upstream commit hashes to ignore for upstream comparison ###
 UPSTREAM_BLACKLIST =
@@ -19,3 +19,6 @@ MESSAGE_DIFF_WEIGHT = 0.3
 [MBOX]
 MBOX_MINDATE = 1970-01-01
 MBOX_MAXDATE = 2040-01-01
+
+[MBOX_RAW]
+passau-httpd = /mnt/rackstation/mboxes/passau-mboxes/gmane.comp.apache.devel.mbox
