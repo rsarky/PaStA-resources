@@ -4,7 +4,7 @@ PROJECT_NAME = FFmpeg
 MODE = mbox
 
 ### necessary for upstream comparison. Patches within this range will be considered ###
-UPSTREAM = origin/master
+UPSTREAM = e3b2c8502b33c180e0f053ac2ef32ee782224c2e
 
 ### Blacklist of upstream commit hashes to ignore for upstream comparison ###
 UPSTREAM_BLACKLIST =
@@ -19,3 +19,6 @@ MESSAGE_DIFF_WEIGHT = 0.3
 [MBOX]
 MBOX_MINDATE = 1970-01-01
 MBOX_MAXDATE = 2040-01-01
+
+[MBOX_RAW]
+passau-ffmpeg = /mnt/rackstation/mboxes/passau-mboxes/gmane.comp.video.ffmpeg.devel.mbox
