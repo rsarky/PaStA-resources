@@ -94,3 +94,6 @@
 [submodule "gcc/repo"]
 	path = gcc/repo
 	url = https://github.com/gcc-mirror/gcc.git
+[submodule "httpd/repo"]
+	path = httpd/repo
+	url = https://github.com/apache/httpd.git
