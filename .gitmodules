@@ -91,3 +91,6 @@
 [submodule "wine/repo"]
 	path = wine/repo
 	url = https://github.com/wine-mirror/wine.git
+[submodule "gcc/repo"]
+	path = gcc/repo
+	url = https://github.com/gcc-mirror/gcc.git
