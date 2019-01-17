@@ -106,3 +106,6 @@
 [submodule "PostgreSQL/repo"]
 	path = PostgreSQL/repo
 	url = https://github.com/postgres/postgres.git
+[submodule "LLVM/repo"]
+	path = LLVM/repo
+	url = https://github.com/llvm-mirror/llvm.git
