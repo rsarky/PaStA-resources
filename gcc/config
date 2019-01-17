@@ -4,7 +4,7 @@ PROJECT_NAME = GCC
 MODE = mbox
 
 ### necessary for upstream comparison. Patches within this range will be considered ###
-UPSTREAM = origin/master
+UPSTREAM = 156d2484120350473307c3f621726ca0fb1c4e39
 
 ### Blacklist of upstream commit hashes to ignore for upstream comparison ###
 UPSTREAM_BLACKLIST = gcc-blacklist
@@ -19,3 +19,6 @@ MESSAGE_DIFF_WEIGHT = 0.3
 [MBOX]
 MBOX_MINDATE = 1970-01-01
 MBOX_MAXDATE = 2040-01-01
+
+[MBOX_RAW]
+passau-gcc = /mnt/rackstation/mboxes/passau-mboxes/gmane.comp.gcc.devel.mbox
