@@ -85,3 +85,6 @@
 [submodule "git/repo"]
 	path = git/repo
 	url = https://github.com/git/git.git
+[submodule "OpenSSL/repo"]
+	path = OpenSSL/repo
+	url = git://git.openssl.org/openssl.git
