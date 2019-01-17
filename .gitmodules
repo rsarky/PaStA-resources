@@ -100,3 +100,6 @@
 [submodule "django/repo"]
 	path = django/repo
 	url = https://github.com/django/django.git
+[submodule "FFmpeg/repo"]
+	path = FFmpeg/repo
+	url = https://github.com/FFmpeg/FFmpeg.git
