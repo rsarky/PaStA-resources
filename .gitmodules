@@ -97,3 +97,6 @@
 [submodule "httpd/repo"]
 	path = httpd/repo
 	url = https://github.com/apache/httpd.git
+[submodule "django/repo"]
+	path = django/repo
+	url = https://github.com/django/django.git

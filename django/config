@@ -1,0 +1,21 @@
+[PaStA]
+### Project name. Should not contain whitespaces ###
+PROJECT_NAME = django
+MODE = mbox
+
+### necessary for upstream comparison. Patches within this range will be considered ###
+UPSTREAM = origin/master
+
+### Blacklist of upstream commit hashes to ignore for upstream comparison ###
+UPSTREAM_BLACKLIST =
+
+### Project specific autothresholds for interactive rating ###
+INTERACTIVE_THRESHOLD = 1.1
+AUTOACCEPT_THRESHOLD = 0.82
+DIFF_LINES_RATIO = 0.4
+MESSAGE_DIFF_WEIGHT = 0.3
+
+### Used for parsing mailinglists ###
+[MBOX]
+MBOX_MINDATE = 1970-01-01
+MBOX_MAXDATE = 2040-01-01
