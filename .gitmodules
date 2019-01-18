@@ -76,3 +76,9 @@
 [submodule "u-boot/repo"]
 	path = u-boot/repo
 	url = git://git.denx.de/u-boot.git
+[submodule "linux/resources/mbox/pubin/linux-netdev-0"]
+	path = linux/resources/mbox/pubin/linux-netdev-0
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/netdev/0.git
+[submodule "linux/resources/mbox/pubin/linux-netdev-1"]
+	path = linux/resources/mbox/pubin/linux-netdev-1
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/netdev/1.git

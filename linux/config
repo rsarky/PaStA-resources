@@ -45,6 +45,7 @@ linux-bluetooth = linux-bluetooth-0
 linux-btrfs = linux-btrfs-0
 linux-clk = linux-clk-0
 linux-integrity = linux-integrity-0
+linux-netdev = linux-netdev-0, linux-netdev-1
 linux-nfs = linux-nfs-0
 linux-parisc = linux-parisc-0
 linux-pci = linux-pci-0
