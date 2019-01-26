@@ -82,3 +82,57 @@
 [submodule "linux/resources/mbox/pubin/linux-netdev-1"]
 	path = linux/resources/mbox/pubin/linux-netdev-1
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/netdev/1.git
+[submodule "linux/mboxes/linux-arm-kernel-0"]
+	path = linux/resources/mbox/pubin/linux-arm-kernel-0
+	url = git://git.kernel.org/pub/scm/public-inbox/lists.infradead.org/linux-arm-kernel/0.git
+[submodule "linux/resources/mbox/pubin/linux-riscv-0"]
+	path = linux/resources/mbox/pubin/linux-riscv-0
+	url = git://git.kernel.org/pub/scm/public-inbox/lists.infradead.org/linux-riscv/0.git
+[submodule "linux/resources/mbox/pubin/linux-media-0"]
+	path = linux/resources/mbox/pubin/linux-media-0
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-media/0.git
+[submodule "linux/resources/mbox/pubin/linux-amlogic-0"]
+	path = linux/resources/mbox/pubin/linux-amlogic-0
+	url = git://git.kernel.org/pub/scm/public-inbox/lists.infradead.org/linux-amlogic/0.git
+[submodule "linux/resources/mbox/pubin/linux-i3c-0"]
+	path = linux/resources/mbox/pubin/linux-i3c-0
+	url = git://git.kernel.org/pub/scm/public-inbox/lists.infradead.org/linux-i3c/0.git
+[submodule "linux/resources/mbox/pubin/linux-mtd-0"]
+	path = linux/resources/mbox/pubin/linux-mtd-0
+	url = git://git.kernel.org/pub/scm/public-inbox/lists.infradead.org/linux-mtd/0.git
+[submodule "linux/resources/mbox/pubin/cocci-0"]
+	path = linux/resources/mbox/pubin/cocci-0
+	url = git://git.kernel.org/pub/scm/public-inbox/systeme.lip6.fr/cocci/0.git
+[submodule "linux/resources/mbox/pubin/linux-cifs-0"]
+	path = linux/resources/mbox/pubin/linux-cifs-0
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-cifs/0.git
+[submodule "linux/resources/mbox/pubin/linux-crypto-0"]
+	path = linux/resources/mbox/pubin/linux-crypto-0
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-crypto/0.git
+[submodule "linux/resources/mbox/pubin/linux-ext4-0"]
+	path = linux/resources/mbox/pubin/linux-ext4-0
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-ext4/0.git
+[submodule "linux/resources/mbox/pubin/linux-fsdevel-0"]
+	path = linux/resources/mbox/pubin/linux-fsdevel-0
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-fsdevel/0.git
+[submodule "linux/resources/mbox/pubin/linux-hwmon-0"]
+	path = linux/resources/mbox/pubin/linux-hwmon-0
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-hwmon/0.git
+[submodule "linux/resources/mbox/pubin/linux-iio-0"]
+	path = linux/resources/mbox/pubin/linux-iio-0
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-iio/0.git
+[submodule "linux/resources/mbox/pubin/linux-mips-0"]
+	path = linux/resources/mbox/pubin/linux-mips-0
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-mips/0.git
+[submodule "linux/resources/mbox/pubin/linux-modules-0"]
+	path = linux/resources/mbox/pubin/linux-modules-0
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-modules/0.git
+[submodule "linux/resources/mbox/pubin/linux-renesas-soc-0"]
+	path = linux/resources/mbox/pubin/linux-renesas-soc-0
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-renesas-soc/0.git
+[submodule "linux/resources/mbox/pubin/linux-trace-devel-0"]
+	path = linux/resources/mbox/pubin/linux-trace-devel-0
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-trace-devel/0.git
+[submodule "linux/resources/mbox/pubin/linux-watchdog-0"]
+	path = linux/resources/mbox/pubin/linux-watchdog-0
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-watchdog/0.git
