@@ -21,4 +21,5 @@ MBOX_MINDATE = 1970-01-01
 MBOX_MAXDATE = 2040-01-01
 
 [MBOX_RAW]
-passau-gcc = /mnt/rackstation/mboxes/passau-mboxes/gmane.comp.gcc.devel.mbox
+passau-gcc-devel = /mnt/rackstation/mboxes/passau-mboxes/gmane.comp.gcc.devel.mbox
+passau-gcc-patches = /mnt/rackstation/mboxes/passau-mboxes/gmane.comp.gcc.patches.mbox
