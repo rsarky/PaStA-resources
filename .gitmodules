@@ -109,3 +109,6 @@
 [submodule "LLVM/repo"]
 	path = LLVM/repo
 	url = https://github.com/llvm-mirror/llvm.git
+[submodule "flac/repo"]
+	path = flac/repo
+	url = https://github.com/xiph/flac.git
