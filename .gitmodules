@@ -136,3 +136,6 @@
 [submodule "linux/resources/mbox/pubin/linux-watchdog-0"]
 	path = linux/resources/mbox/pubin/linux-watchdog-0
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-watchdog/0.git
+[submodule "linux/resources/mbox/pubin/lkml-7"]
+	path = linux/resources/mbox/pubin/lkml-7
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/lkml/7.git

@@ -39,7 +39,7 @@ MBOX_MAXDATE = 2030-01-01
 #
 # listname = /some/location/pub-inbox-0[, ...]
 
-lkml = lkml-0, lkml-1, lkml-2, lkml-3, lkml-4, lkml-5, lkml-6
+lkml = lkml-0, lkml-1, lkml-2, lkml-3, lkml-4, lkml-5, lkml-6, lkml-7
 cocci = cocci-0
 linux-amlogic = linux-amlogic-0
 linux-arm-kernel = linux-arm-kernel-0
