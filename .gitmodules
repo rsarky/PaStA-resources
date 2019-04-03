@@ -139,3 +139,6 @@
 [submodule "linux/resources/mbox/pubin/lkml-7"]
 	path = linux/resources/mbox/pubin/lkml-7
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/lkml/7.git
+[submodule "linux/resources/mbox/pubin/linux-arm-kernel-1"]
+	path = linux/resources/mbox/pubin/linux-arm-kernel-1
+	url = git://git.kernel.org/pub/scm/public-inbox/lists.infradead.org/linux-arm-kernel/1.git
