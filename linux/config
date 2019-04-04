@@ -25,67 +25,54 @@ MBOX_MAXDATE = 2030-01-01
 # ...
 
 [mbox.pubin]
-# A mailing list that uses public inboxes may consist of several public
-# inboxes. Those inboxes are specified in a comma separated list:
+# Mailing lists are hosted somewhere. A ML host may host multiple lists.
+# To define lists of a host, those lists need to be defined within the list of
+# lists of a ML host:
 #
-# listname = "pub-inbox-1"
-# listname = "pub-inbox-1", "pub-inbox-2"[, ...]
+# [mbox.pubin."some.ml.host"]
+# lists = ["listname1", "listname2", ...]
 #
-# Those inboxes must be locates at
-# resources/project_name/resources/mbox/pubin/pub-inbox-X and should be added
-# as git submodules of the PaStA-resources repositories.
-#
-# Nevertheless, absolute paths are supported as well:
-#
-# listname = "/some/location/pub-inbox-0"[, ...]
+# Shards (0.git, 1.git, ...) of public inboxes MUST be located under
+# resources/project_name/resources/mbox/pubin/some.ml.host/listname1/ . PaStA
+# will then try to automatically find shards beginning from 0.
 
+[mbox.pubin."lists.infradead.org"]
+lists = ["linux-amlogic",
+	 "linux-arm-kernel",
+	 "linux-i3c",
+	 "linux-mtd",
+	 "linux-riscv"]
 
-# Lists on lists.infradead.org
-linux-amlogic = "lists.infradead.org/linux-amlogic/0.git"
-linux-arm-kernel = ["lists.infradead.org/linux-arm-kernel/0.git",
-                    "lists.infradead.org/linux-arm-kernel/1.git"]
-linux-i3c = "lists.infradead.org/linux-i3c/0.git"
-linux-mtd = "lists.infradead.org/linux-mtd/0.git"
-linux-riscv = "lists.infradead.org/linux-riscv/0.git"
+[mbox.pubin."lists.ozlabs.org"]
+lists = ["linuxppc-dev"]
 
-# Lists on lists.ozlabs.org
-linuxppc-dev = "lists.ozlabs.org/linuxppc-dev/0.git"
+[mbox.pubin."systeme.lip6.fr"]
+lists = ["cocci"]
 
-# Lists on systeme.lip6.fr
-cocci = "systeme.lip6.fr/cocci/0.git"
-
-# Lists on vger.kernel.org
-lkml = ["vger.kernel.org/lkml/0.git",
-        "vger.kernel.org/lkml/1.git",
-        "vger.kernel.org/lkml/2.git",
-        "vger.kernel.org/lkml/3.git",
-        "vger.kernel.org/lkml/4.git",
-        "vger.kernel.org/lkml/5.git",
-        "vger.kernel.org/lkml/6.git",
-        "vger.kernel.org/lkml/7.git"]
-linux-block = "vger.kernel.org/linux-block/0.git"
-linux-bluetooth = "vger.kernel.org/linux-bluetooth/0.git"
-linux-btrfs = "vger.kernel.org/linux-btrfs/0.git"
-linux-cifs = "vger.kernel.org/linux-cifs/0.git"
-linux-clk = "vger.kernel.org/linux-clk/0.git"
-linux-crypto = "vger.kernel.org/linux-crypto/0.git"
-linux-ext4 = "vger.kernel.org/linux-ext4/0.git"
-linux-fsdevel = "vger.kernel.org/linux-fsdevel/0.git"
-linux-hwmon = "vger.kernel.org/linux-hwmon/0.git"
-linux-iio = "vger.kernel.org/linux-iio/0.git"
-linux-integrity = "vger.kernel.org/linux-integrity/0.git"
-linux-media = "vger.kernel.org/linux-media/0.git"
-linux-mips = "vger.kernel.org/linux-mips/0.git"
-linux-modules = "vger.kernel.org/linux-modules/0.git"
-linux-netdev = ["vger.kernel.org/netdev/0.git",
-	        "vger.kernel.org/netdev/1.git"]
-linux-nfs = "vger.kernel.org/linux-nfs/0.git"
-linux-parisc = "vger.kernel.org/linux-parisc/0.git"
-linux-pci = "vger.kernel.org/linux-pci/0.git"
-linux-renesas-soc = "vger.kernel.org/linux-renesas-soc/0.git"
-linux-rtc = "vger.kernel.org/linux-rtc/0.git"
-linux-security-module = "vger.kernel.org/linux-security-module/0.git"
-linux-sgx = "vger.kernel.org/linux-sgx/0.git"
-linux-trace-devel = "vger.kernel.org/linux-trace-devel/0.git"
-linux-watchdog = "vger.kernel.org/linux-watchdog/0.git"
-linux-wireless = "vger.kernel.org/linux-wireless/0.git"
+[mbox.pubin."vger.kernel.org"]
+lists = ["lkml",
+	 "linux-block",
+	 "linux-bluetooth",
+	 "linux-btrfs",
+	 "linux-cifs",
+	 "linux-clk",
+	 "linux-crypto",
+	 "linux-ext4",
+	 "linux-fsdevel",
+	 "linux-hwmon",
+	 "linux-iio",
+	 "linux-integrity",
+	 "linux-media",
+	 "linux-mips",
+	 "linux-modules",
+	 "netdev",
+	 "linux-nfs",
+	 "linux-parisc",
+	 "linux-pci",
+	 "linux-renesas-soc",
+	 "linux-rtc",
+	 "linux-security-module",
+	 "linux-sgx",
+	 "linux-trace-devel",
+	 "linux-watchdog",
+	 "linux-wireless"]
