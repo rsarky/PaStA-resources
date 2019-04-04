@@ -1,13 +1,13 @@
 [PaStA]
 ### Project name. Should not contain whitespaces ###
-PROJECT_NAME = Linux
-MODE = mbox
+PROJECT_NAME = "Linux"
+MODE = "mbox"
 
 ### necessary for upstream comparison. Patches within this range will be considered ###
-UPSTREAM = origin/master
+UPSTREAM = "origin/master"
 
 ### Blacklist of upstream commit hashes to ignore for upstream comparison ###
-UPSTREAM_BLACKLIST = linux-blacklist
+UPSTREAM_BLACKLIST = "linux-blacklist"
 
 ### Project specific autothresholds for interactive rating ###
 INTERACTIVE_THRESHOLD = 1.1
@@ -16,20 +16,20 @@ DIFF_LINES_RATIO = 0.4
 MESSAGE_DIFF_WEIGHT = 0.3
 
 ### Used for parsing mailinglists ###
-[MBOX]
+[mbox]
 MBOX_MINDATE = 2005-04-16
 MBOX_MAXDATE = 2030-01-01
 
-[MBOX_RAW]
-# listname = filename
+[mbox.raw]
+# listname = "filename"
 # ...
 
-[MBOX_GIT_PUBLIC_INBOX]
+[mbox.pubin]
 # A mailing list that uses public inboxes may consist of several public
 # inboxes. Those inboxes are specified in a comma separated list:
 #
-# listname = pub-inbox-1
-# listname = pub-inbox-1, pub-inbox-2[, ...]
+# listname = "pub-inbox-1"
+# listname = "pub-inbox-1", "pub-inbox-2"[, ...]
 #
 # Those inboxes must be locates at
 # resources/project_name/resources/mbox/pubin/pub-inbox-X and should be added
@@ -37,55 +37,55 @@ MBOX_MAXDATE = 2030-01-01
 #
 # Nevertheless, absolute paths are supported as well:
 #
-# listname = /some/location/pub-inbox-0[, ...]
+# listname = "/some/location/pub-inbox-0"[, ...]
 
 
 # Lists on lists.infradead.org
-linux-amlogic = lists.infradead.org/linux-amlogic/0.git
-linux-arm-kernel = lists.infradead.org/linux-arm-kernel/0.git,
-		   lists.infradead.org/linux-arm-kernel/1.git
-linux-i3c = lists.infradead.org/linux-i3c/0.git
-linux-mtd = lists.infradead.org/linux-mtd/0.git
-linux-riscv = lists.infradead.org/linux-riscv/0.git
+linux-amlogic = "lists.infradead.org/linux-amlogic/0.git"
+linux-arm-kernel = ["lists.infradead.org/linux-arm-kernel/0.git",
+                    "lists.infradead.org/linux-arm-kernel/1.git"]
+linux-i3c = "lists.infradead.org/linux-i3c/0.git"
+linux-mtd = "lists.infradead.org/linux-mtd/0.git"
+linux-riscv = "lists.infradead.org/linux-riscv/0.git"
 
 # Lists on lists.ozlabs.org
-linuxppc-dev = lists.ozlabs.org/linuxppc-dev/0.git
+linuxppc-dev = "lists.ozlabs.org/linuxppc-dev/0.git"
 
 # Lists on systeme.lip6.fr
-cocci = systeme.lip6.fr/cocci/0.git
+cocci = "systeme.lip6.fr/cocci/0.git"
 
 # Lists on vger.kernel.org
-lkml = vger.kernel.org/lkml/0.git,
-       vger.kernel.org/lkml/1.git,
-       vger.kernel.org/lkml/2.git,
-       vger.kernel.org/lkml/3.git,
-       vger.kernel.org/lkml/4.git,
-       vger.kernel.org/lkml/5.git,
-       vger.kernel.org/lkml/6.git,
-       vger.kernel.org/lkml/7.git
-linux-block = vger.kernel.org/linux-block/0.git
-linux-bluetooth = vger.kernel.org/linux-bluetooth/0.git
-linux-btrfs = vger.kernel.org/linux-btrfs/0.git
-linux-cifs = vger.kernel.org/linux-cifs/0.git
-linux-clk = vger.kernel.org/linux-clk/0.git
-linux-crypto = vger.kernel.org/linux-crypto/0.git
-linux-ext4 = vger.kernel.org/linux-ext4/0.git
-linux-fsdevel = vger.kernel.org/linux-fsdevel/0.git
-linux-hwmon = vger.kernel.org/linux-hwmon/0.git
-linux-iio = vger.kernel.org/linux-iio/0.git
-linux-integrity = vger.kernel.org/linux-integrity/0.git
-linux-media = vger.kernel.org/linux-media/0.git
-linux-mips = vger.kernel.org/linux-mips/0.git
-linux-modules = vger.kernel.org/linux-modules/0.git
-linux-netdev = vger.kernel.org/netdev/0.git,
-	       vger.kernel.org/netdev/1.git
-linux-nfs = vger.kernel.org/linux-nfs/0.git
-linux-parisc = vger.kernel.org/linux-parisc/0.git
-linux-pci = vger.kernel.org/linux-pci/0.git
-linux-renesas-soc = vger.kernel.org/linux-renesas-soc/0.git
-linux-rtc = vger.kernel.org/linux-rtc/0.git
-linux-security-module = vger.kernel.org/linux-security-module/0.git
-linux-sgx = vger.kernel.org/linux-sgx/0.git
-linux-trace-devel = vger.kernel.org/linux-trace-devel/0.git
-linux-watchdog = vger.kernel.org/linux-watchdog/0.git
-linux-wireless = vger.kernel.org/linux-wireless/0.git
+lkml = ["vger.kernel.org/lkml/0.git",
+        "vger.kernel.org/lkml/1.git",
+        "vger.kernel.org/lkml/2.git",
+        "vger.kernel.org/lkml/3.git",
+        "vger.kernel.org/lkml/4.git",
+        "vger.kernel.org/lkml/5.git",
+        "vger.kernel.org/lkml/6.git",
+        "vger.kernel.org/lkml/7.git"]
+linux-block = "vger.kernel.org/linux-block/0.git"
+linux-bluetooth = "vger.kernel.org/linux-bluetooth/0.git"
+linux-btrfs = "vger.kernel.org/linux-btrfs/0.git"
+linux-cifs = "vger.kernel.org/linux-cifs/0.git"
+linux-clk = "vger.kernel.org/linux-clk/0.git"
+linux-crypto = "vger.kernel.org/linux-crypto/0.git"
+linux-ext4 = "vger.kernel.org/linux-ext4/0.git"
+linux-fsdevel = "vger.kernel.org/linux-fsdevel/0.git"
+linux-hwmon = "vger.kernel.org/linux-hwmon/0.git"
+linux-iio = "vger.kernel.org/linux-iio/0.git"
+linux-integrity = "vger.kernel.org/linux-integrity/0.git"
+linux-media = "vger.kernel.org/linux-media/0.git"
+linux-mips = "vger.kernel.org/linux-mips/0.git"
+linux-modules = "vger.kernel.org/linux-modules/0.git"
+linux-netdev = ["vger.kernel.org/netdev/0.git",
+	        "vger.kernel.org/netdev/1.git"]
+linux-nfs = "vger.kernel.org/linux-nfs/0.git"
+linux-parisc = "vger.kernel.org/linux-parisc/0.git"
+linux-pci = "vger.kernel.org/linux-pci/0.git"
+linux-renesas-soc = "vger.kernel.org/linux-renesas-soc/0.git"
+linux-rtc = "vger.kernel.org/linux-rtc/0.git"
+linux-security-module = "vger.kernel.org/linux-security-module/0.git"
+linux-sgx = "vger.kernel.org/linux-sgx/0.git"
+linux-trace-devel = "vger.kernel.org/linux-trace-devel/0.git"
+linux-watchdog = "vger.kernel.org/linux-watchdog/0.git"
+linux-wireless = "vger.kernel.org/linux-wireless/0.git"

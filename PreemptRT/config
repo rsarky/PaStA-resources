@@ -1,19 +1,19 @@
 [PaStA]
 ### Project name. Should not contain whitespaces ###
-PROJECT_NAME = PreemptRT
-MODE = patchstack
+PROJECT_NAME = "PreemptRT"
+MODE = "patchstack"
 
 ### necessary for upstream comparison. Patches within this range will be considered ###
-UPSTREAM = v3.0..v4.20
+UPSTREAM = "v3.0..v4.20"
 
 ### Blacklist of upstream commit hashes to ignore for upstream comparison ###
-UPSTREAM_BLACKLIST = linux-blacklist
+UPSTREAM_BLACKLIST = "linux-blacklist"
 
 ### Project specific autothresholds for interactive rating ###
 INTERACTIVE_THRESHOLD = 0.90
 AUTOACCEPT_THRESHOLD = 1.00
 DIFF_LINES_RATIO = 0.7
 
-[MBOX]
+[mbox]
 MBOX_MINDATE = 2011-06-01
 MBOX_MAXDATE = 2030-01-01

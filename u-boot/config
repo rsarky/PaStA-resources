@@ -1,13 +1,10 @@
 [PaStA]
 ### Project name. Should not contain whitespaces ###
-PROJECT_NAME = U-Boot
-MODE = mbox
+PROJECT_NAME = "U-Boot"
+MODE = "mbox"
 
 ### necessary for upstream comparison. Patches within this range will be considered ###
-UPSTREAM = origin/master
-
-### Blacklist of upstream commit hashes to ignore for upstream comparison ###
-UPSTREAM_BLACKLIST =
+UPSTREAM = "origin/master"
 
 ### Project specific autothresholds for interactive rating ###
 INTERACTIVE_THRESHOLD = 1.1
@@ -16,9 +13,9 @@ DIFF_LINES_RATIO = 0.4
 MESSAGE_DIFF_WEIGHT = 0.3
 
 ### Used for parsing mailinglists ###
-[MBOX]
+[mbox]
 MBOX_MINDATE = 2005-04-16
 MBOX_MAXDATE = 2030-01-01
 
-[MBOX_RAW]
-u-boot-users = mbox-uboot
+[mbox.raw]
+u-boot-users = "mbox-uboot"
