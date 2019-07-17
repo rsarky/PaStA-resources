@@ -50,8 +50,7 @@ lists = ["linuxppc-dev"]
 lists = ["cocci"]
 
 [mbox.pubin."vger.kernel.org"]
-lists = ["lkml",
-	 "linux-block",
+lists = ["linux-block",
 	 "linux-bluetooth",
 	 "linux-btrfs",
 	 "linux-cifs",
@@ -62,6 +61,7 @@ lists = ["lkml",
 	 "linux-hwmon",
 	 "linux-iio",
 	 "linux-integrity",
+	 "linux-kernel",
 	 "linux-media",
 	 "linux-mips",
 	 "linux-modules",

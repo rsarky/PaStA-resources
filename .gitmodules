@@ -14,25 +14,25 @@
 	path = jailhouse/repo
 	url = https://github.com/siemens/jailhouse.git
 [submodule "linux/mboxes/lkml-0"]
-	path = linux/resources/mbox/pubin/vger.kernel.org/lkml/0.git
+	path = linux/resources/mbox/pubin/vger.kernel.org/linux-kernel/0.git
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/lkml/0.git
 [submodule "linux/mboxes/lkml-1"]
-	path = linux/resources/mbox/pubin/vger.kernel.org/lkml/1.git
+	path = linux/resources/mbox/pubin/vger.kernel.org/linux-kernel/1.git
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/lkml/1.git
 [submodule "linux/mboxes/lkml-3"]
-	path = linux/resources/mbox/pubin/vger.kernel.org/lkml/3.git
+	path = linux/resources/mbox/pubin/vger.kernel.org/linux-kernel/3.git
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/lkml/3.git
 [submodule "linux/mboxes/lkml-4"]
-	path = linux/resources/mbox/pubin/vger.kernel.org/lkml/4.git
+	path = linux/resources/mbox/pubin/vger.kernel.org/linux-kernel/4.git
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/lkml/4.git
 [submodule "linux/mboxes/lkml-5"]
-	path = linux/resources/mbox/pubin/vger.kernel.org/lkml/5.git
+	path = linux/resources/mbox/pubin/vger.kernel.org/linux-kernel/5.git
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/lkml/5.git
 [submodule "linux/mboxes/lkml-6"]
-	path = linux/resources/mbox/pubin/vger.kernel.org/lkml/6.git
+	path = linux/resources/mbox/pubin/vger.kernel.org/linux-kernel/6.git
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/lkml/6.git
 [submodule "linux/mboxes/lkml-2"]
-	path = linux/resources/mbox/pubin/vger.kernel.org/lkml/2.git
+	path = linux/resources/mbox/pubin/vger.kernel.org/linux-kernel/2.git
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/lkml/2.git
 [submodule "linux/mboxes/linux-wireless-0"]
 	path = linux/resources/mbox/pubin/vger.kernel.org/linux-wireless/0.git
@@ -137,7 +137,7 @@
 	path = linux/resources/mbox/pubin/vger.kernel.org/linux-watchdog/0.git
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/linux-watchdog/0.git
 [submodule "linux/resources/mbox/pubin/lkml-7"]
-	path = linux/resources/mbox/pubin/vger.kernel.org/lkml/7.git
+	path = linux/resources/mbox/pubin/vger.kernel.org/linux-kernel/7.git
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/lkml/7.git
 [submodule "linux/resources/mbox/pubin/linux-arm-kernel-1"]
 	path = linux/resources/mbox/pubin/lists.infradead.org/linux-arm-kernel/1.git
