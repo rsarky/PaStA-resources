@@ -93,7 +93,8 @@ lists = ["ath10k",
 	 "linux-riscv",
 	 "linux-snps-arc",
 	 "linux-um",
-	 "linux-unisoc"]
+	 "linux-unisoc",
+	 "wcn36xx"]
 
 [mbox.pubin."lists.librecores.org"]
 lists = ["openrisc"]

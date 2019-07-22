@@ -622,3 +622,6 @@
 [submodule "linux/resources/mbox/pubin/lists.xenproject.org/xen-devel/0"]
 	path = linux/resources/mbox/pubin/lists.xenproject.org/xen-devel/0.git
 	url = https://github.com/linux-mailinglist-archives/xen-devel.lists.xenproject.org.0
+[submodule "linux/resources/mbox/pubin/lists.infradead.org/wcn36xx/0.git"]
+	path = linux/resources/mbox/pubin/lists.infradead.org/wcn36xx/0.git
+	url = https://github.com/linux-mailinglist-archives/wcn36xx.lists.infradead.org.0
