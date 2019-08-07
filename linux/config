@@ -17,7 +17,7 @@ MESSAGE_DIFF_WEIGHT = 0.3
 
 ### Used for parsing mailinglists ###
 [mbox]
-MINDATE = 2005-04-16
+MINDATE = 1970-01-01
 MAXDATE = 2030-01-01
 
 [mbox.raw]
