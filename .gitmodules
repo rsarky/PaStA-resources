@@ -625,3 +625,6 @@
 [submodule "linux/resources/mbox/pubin/lists.infradead.org/wcn36xx/0.git"]
 	path = linux/resources/mbox/pubin/lists.infradead.org/wcn36xx/0.git
 	url = https://github.com/linux-mailinglist-archives/wcn36xx.lists.infradead.org.0
+[submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-next/0.git"]
+	path = linux/resources/mbox/pubin/vger.kernel.org/linux-next/0.git
+	url = https://lore.kernel.org/linux-next/0
