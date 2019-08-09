@@ -631,3 +631,6 @@
 [submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-tip-commits/0.git"]
 	path = linux/resources/mbox/pubin/vger.kernel.org/linux-tip-commits/0.git
 	url = https://github.com/linux-mailinglist-archives/linux-tip-commits.vger.kernel.org.0.git
+[submodule "linux/resources/mbox/pubin/lists.sourceforge.net/linux-decnet/0.git"]
+	path = linux/resources/mbox/pubin/lists.sourceforge.net/linux-decnet-user/0.git
+	url = https://github.com/linux-mailinglist-archives/linux-decnet-user.lists.sourceforge.net.0.git
