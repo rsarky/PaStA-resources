@@ -72,6 +72,9 @@ lists = ["clang-built-linux",
 	"linux-ntb",
 	"open-iscsi"]
 
+[mbox.pubin."isely.net"]
+lists = ["pvrusb2"]
+
 [mbox.pubin."lists.cs.columbia.edu"]
 lists = ["kvmarm"]
 
