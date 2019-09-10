@@ -271,9 +271,6 @@
 [submodule "linux/resources/mbox/pubin/lists.sourceforge.net/kgdb-bugreport/0"]
 	path = linux/resources/mbox/pubin/lists.sourceforge.net/kgdb-bugreport/0.git
 	url = https://github.com/linux-mailinglist-archives/kgdb-bugreport.lists.sourceforge.net.0
-[submodule "linux/resources/mbox/pubin/lists.linuxfoundation.org/ksummit-discuss/0"]
-	path = linux/resources/mbox/pubin/lists.linuxfoundation.org/ksummit-discuss/0.git
-	url = https://github.com/linux-mailinglist-archives/ksummit-discuss.lists.linuxfoundation.org.0
 [submodule "linux/resources/mbox/pubin/lists.cs.columbia.edu/kvmarm/0"]
 	path = linux/resources/mbox/pubin/lists.cs.columbia.edu/kvmarm/0.git
 	url = https://github.com/linux-mailinglist-archives/kvmarm.lists.cs.columbia.edu.0
@@ -637,3 +634,6 @@
 [submodule "linux/resources/mbox/pubin/isely.net/pvrusb2/0.git"]
 	path = linux/resources/mbox/pubin/isely.net/pvrusb2/0.git
 	url = https://github.com/linux-mailinglist-archives/pvrusb2.isely.net.0.git
+[submodule "linux/resources/mbox/pubin/lists.linuxfoundation.org/ksummit-discuss/0.git"]
+	path = linux/resources/mbox/pubin/lists.linuxfoundation.org/ksummit-discuss/0.git
+	url = https://lore.kernel.org/linux-next/0
