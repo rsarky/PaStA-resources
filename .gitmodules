@@ -139,6 +139,9 @@
 	url = https://lore.kernel.org/ksummit-discuss/0
 
 # vger.kernel.org
+[submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-spdx/0.git"]
+	path = linux/resources/mbox/pubin/vger.kernel.org/linux-spdx/0.git
+	url = https://lore.kernel.org/linux-spdx/0
 [submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-next/0.git"]
 	path = linux/resources/mbox/pubin/vger.kernel.org/linux-next/0.git
 	url = https://lore.kernel.org/linux-next/0
