@@ -4,7 +4,7 @@ PROJECT_NAME = "Linux"
 MODE = "mbox"
 
 ### necessary for upstream comparison. Patches within this range will be considered ###
-UPSTREAM = "origin/master"
+UPSTREAM = "MANUAL"
 
 ### Blacklist of upstream commit hashes to ignore for upstream comparison ###
 UPSTREAM_BLACKLIST = "linux-blacklist"
