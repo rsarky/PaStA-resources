@@ -376,7 +376,7 @@
 	url = https://github.com/linux-mailinglist-archives/kgdb-bugreport.lists.sourceforge.net.0
 [submodule "linux/resources/mbox/pubin/lists.sourceforge.net/legousb-devel/0.git"]
 	path = linux/resources/mbox/pubin/lists.sourceforge.net/legousb-devel/0.git
-	url = git@github.com:linux-mailinglist-archives/legousb-devel.lists.sourceforge.net.0.git
+	url = https://github.com/linux-mailinglist-archives/legousb-devel.lists.sourceforge.net.0.git
 [submodule "linux/resources/mbox/pubin/lists.sourceforge.net/linux1394-devel/0.git"]
 	path = linux/resources/mbox/pubin/lists.sourceforge.net/linux1394-devel/0.git
 	url = https://github.com/linux-mailinglist-archives/linux1394-devel.lists.sourceforge.net.0
