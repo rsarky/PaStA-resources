@@ -202,6 +202,7 @@ MAXDATE = 2030-01-01
 	"devicetree",
 	"dmaengine",
 	"ecryptfs",
+	"io-uring",
 	"kernel-janitors",
 	"keyrings",
 	"kvm-ppc",
