@@ -137,6 +137,9 @@
 [submodule "linux/resources/mbox/pubin/alsa-project.org/alsa-devel/0.git"]
 	path = linux/resources/mbox/pubin/alsa-project.org/alsa-devel/0.git
 	url = https://lore.kernel.org/alsa-devel/0
+[submodule "linux/resources/mbox/pubin/lists.cip-project.org/cip-dev/0.git"]
+	path = linux/resources/mbox/pubin/lists.cip-project.org/cip-dev/0.git
+	url = https://lore.kernel.org/cip-dev/0
 [submodule "linux/resources/mbox/pubin/lists.linuxfoundation.org/ksummit-discuss/0.git"]
 	path = linux/resources/mbox/pubin/lists.linuxfoundation.org/ksummit-discuss/0.git
 	url = https://lore.kernel.org/ksummit-discuss/0

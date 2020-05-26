@@ -71,6 +71,8 @@ MAXDATE = 2030-01-01
 
 "isely.net" = ["pvrusb2"]
 
+"lists.cip-project.org" = ["cip-dev"]
+
 "lists.cs.columbia.edu" = ["kvmarm"]
 
 "lists.infradead.org" = [
