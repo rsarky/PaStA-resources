@@ -151,6 +151,9 @@
 [submodule "linux/resources/mbox/pubin/vger.kernel.org/io-uring/0.git"]
 	path = linux/resources/mbox/pubin/vger.kernel.org/io-uring/0.git
 	url = https://lore.kernel.org/io-uring/0
+[submodule "linux/resources/mbox/pubin/vger.kernel.org/workflows/0.git"]
+	path = linux/resources/mbox/pubin/vger.kernel.org/workflows/0.git
+	url = https://lore.kernel.org/workflows/0
 
 ## Other non-lfd ML hoster
 [submodule "linux/resources/mbox/pubin/lists.ozlabs.org/linuxppc-dev/0.git"]

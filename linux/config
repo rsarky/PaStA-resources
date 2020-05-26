@@ -292,6 +292,7 @@ MAXDATE = 2030-01-01
 	"stable",
 	"target-devel",
 	"util-linux",
+	"workflows",
 	"xdp-newbies"
 ]
 
