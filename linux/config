@@ -181,6 +181,8 @@ MAXDATE = 2030-01-01
 
 "lists.samba.org" = ["samba-technical"]
 
+"lists.zx2c4.com" = ["wireguard"]
+
 "linux-speakup.org" = ["speakup"]
 
 "st-md-mailman.stormreply.com" = [

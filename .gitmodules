@@ -140,6 +140,9 @@
 [submodule "linux/resources/mbox/pubin/lists.linuxfoundation.org/ksummit-discuss/0.git"]
 	path = linux/resources/mbox/pubin/lists.linuxfoundation.org/ksummit-discuss/0.git
 	url = https://lore.kernel.org/ksummit-discuss/0
+[submodule "linux/resources/mbox/pubin/lists.zx2c4.com/wireguard/0.git"]
+	path = linux/resources/mbox/pubin/lists.zx2c4.com/wireguard/0.git
+	url = https://lore.kernel.org/wireguard/0
 
 # vger.kernel.org
 [submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-spdx/0.git"]
