@@ -158,6 +158,7 @@ MAXDATE = 2030-01-01
 	"squashfs-devel",
 	"tboot-devel",
 	"tipc-discussion",
+	"tpmdd-devel",
 	"v9fs-developer"
 ]
 

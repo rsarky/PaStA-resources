@@ -140,6 +140,9 @@
 [submodule "linux/resources/mbox/pubin/lists.linuxfoundation.org/ksummit-discuss/0.git"]
 	path = linux/resources/mbox/pubin/lists.linuxfoundation.org/ksummit-discuss/0.git
 	url = https://lore.kernel.org/ksummit-discuss/0
+[submodule "linux/resources/mbox/pubin/lists.sourceforge.net/tpmdd-devel/0.git"]
+	path = linux/resources/mbox/pubin/lists.sourceforge.net/tpmdd-devel/0.git
+	url = https://lore.kernel.org/tpmdd-devel/0
 [submodule "linux/resources/mbox/pubin/lists.zx2c4.com/wireguard/0.git"]
 	path = linux/resources/mbox/pubin/lists.zx2c4.com/wireguard/0.git
 	url = https://lore.kernel.org/wireguard/0
