@@ -46,6 +46,9 @@
 [submodule "linux/resources/mbox/pubin/vger.kernel.org/lkml/7.git"]
 	path = linux/resources/mbox/pubin/vger.kernel.org/linux-kernel/7.git
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/lkml/7.git
+[submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-kernel/8.git"]
+	path = linux/resources/mbox/pubin/vger.kernel.org/linux-kernel/8.git
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/lkml/8.git
 
 ### OTHER
 [submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-bluetooth/0.git"]
