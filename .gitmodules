@@ -157,6 +157,9 @@
 [submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-next/0.git"]
 	path = linux/resources/mbox/pubin/vger.kernel.org/linux-next/0.git
 	url = https://lore.kernel.org/linux-next/0
+[submodule "linux/resources/mbox/pubin/vger.kernel.org/stable/0.git"]
+	path = linux/resources/mbox/pubin/vger.kernel.org/stable/0.git
+	url = https://lore.kernel.org/stable/0
 [submodule "linux/resources/mbox/pubin/vger.kernel.org/io-uring/0.git"]
 	path = linux/resources/mbox/pubin/vger.kernel.org/io-uring/0.git
 	url = https://lore.kernel.org/io-uring/0
@@ -746,9 +749,6 @@
 [submodule "linux/resources/mbox/pubin/vger.kernel.org/sparclinux/0.git"]
 	path = linux/resources/mbox/pubin/vger.kernel.org/sparclinux/0.git
 	url = https://github.com/linux-mailinglist-archives/sparclinux.vger.kernel.org.0
-[submodule "linux/resources/mbox/pubin/vger.kernel.org/stable/0.git"]
-	path = linux/resources/mbox/pubin/vger.kernel.org/stable/0.git
-	url = https://github.com/linux-mailinglist-archives/stable.vger.kernel.org.0
 [submodule "linux/resources/mbox/pubin/vger.kernel.org/target-devel/0.git"]
 	path = linux/resources/mbox/pubin/vger.kernel.org/target-devel/0.git
 	url = https://github.com/linux-mailinglist-archives/target-devel.vger.kernel.org.0
