@@ -17,9 +17,10 @@
 	path = u-boot/repo
 	url = git://git.denx.de/u-boot.git
 
-#############################################
-# Linux Public Inboxes hosted by kernel.org #
-#############################################
+##################################################
+# Linux Public Inboxes hosted by git.kernel.org
+##################################################
+
 ## vger.kernel.org
 ### LKML
 [submodule "linux/resources/mbox/pubin/vger.kernel.org/lkml/0.git"]
@@ -132,7 +133,7 @@
 
 
 ##################################################
-# Linux Public Inboxes hosted by lore.kernel.org #
+# Linux Public Inboxes hosted by lore.kernel.org
 ##################################################
 [submodule "linux/resources/mbox/pubin/alsa-project.org/alsa-devel/0.git"]
 	path = linux/resources/mbox/pubin/alsa-project.org/alsa-devel/0.git
@@ -196,9 +197,9 @@
 	path = linux/resources/mbox/pubin/systeme.lip6.fr/cocci/0.git
 	url = git://git.kernel.org/pub/scm/public-inbox/systeme.lip6.fr/cocci/0.git
 
-######################################
-# Linux public inboxes hosted by LfD #
-######################################
+##################################################
+# Linux Public Inboxes hosted by github.com
+##################################################
 
 ## lists.01.org
 [submodule "linux/resources/mbox/pubin/lists.01.org/linux-nfc/0.git"]
