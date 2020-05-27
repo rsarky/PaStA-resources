@@ -21,8 +21,12 @@
 # Linux Public Inboxes hosted by git.kernel.org
 ##################################################
 
+## kvack.org
+[submodule "linux/resources/mbox/pubin/kvack.org/linux-mm/0.git"]
+	path = linux/resources/mbox/pubin/kvack.org/linux-mm/0.git
+	url = git://git.kernel.org/pub/scm/public-inbox/kvack.org/linux-mm/0.git
+
 ## vger.kernel.org
-### LKML
 [submodule "linux/resources/mbox/pubin/vger.kernel.org/lkml/0.git"]
 	path = linux/resources/mbox/pubin/vger.kernel.org/linux-kernel/0.git
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/lkml/0.git

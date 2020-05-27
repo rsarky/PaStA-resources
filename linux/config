@@ -44,6 +44,8 @@ MAXDATE = 2030-01-01
 
 "alsa-project.org" = ["alsa-devel"]
 
+"kvack.org" = ["linux-mm"]
+
 "lists.bufferbloat.net" = ["cake"]
 
 "lists.ettus.com" = ["usrp-users"]
