@@ -173,6 +173,9 @@
 [submodule "linux/resources/mbox/pubin/vger.kernel.org/netfilter-devel/0.git"]
 	path = linux/resources/mbox/pubin/vger.kernel.org/netfilter-devel/0.git
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/netfilter-devel/0.git
+[submodule "linux/resources/mbox/pubin/vger.kernel.org/rcu/0.git"]
+	path = linux/resources/mbox/pubin/vger.kernel.org/rcu/0.git
+	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/rcu/0.git
 [submodule "linux/resources/mbox/pubin/vger.kernel.org/selinux/0.git"]
 	path = linux/resources/mbox/pubin/vger.kernel.org/selinux/0.git
 	url = git://git.kernel.org/pub/scm/public-inbox/vger.kernel.org/selinux/0.git
@@ -341,6 +344,9 @@
 [submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-leds/0.git"]
 	path = linux/resources/mbox/pubin/vger.kernel.org/linux-leds/0.git
 	url = https://lore.kernel.org/linux-leds/0
+[submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-m68k/0.git"]
+	path = linux/resources/mbox/pubin/vger.kernel.org/linux-m68k/0.git
+	url = https://lore.kernel.org/linux-m68k/0
 [submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-man/0.git"]
 	path = linux/resources/mbox/pubin/vger.kernel.org/linux-man/0.git
 	url = https://lore.kernel.org/linux-man/0
