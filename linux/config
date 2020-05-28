@@ -35,33 +35,13 @@ MAXDATE = 2030-01-01
 # resources/project_name/resources/mbox/pubin/hoster/listname1/ . PaStA
 # will then try to automatically find shards beginning from 0.
 
-"lists.01.org" = [
-	"linux-nfc",
-	"linux-nvdimm"
+"acpica.org" = [
+	"devel"
 ]
 
-"acpica.org" = ["devel"]
-
-"alsa-project.org" = ["alsa-devel"]
-
-"kvack.org" = ["linux-mm"]
-
-"lists.bufferbloat.net" = ["cake"]
-
-"lists.ettus.com" = ["usrp-users"]
-
-"lists.freedesktop.org" = [
-	"intel-gvt-dev",
-	"intel-gfx",
-	"freedreno",
-	"etnaviv",
-	"dri-devel",
-	"amd-gfx",
-	"spice-devel",
-	"nouveau"
+"alsa-project.org" = [
+	"alsa-devel"
 ]
-
-"groups.io" = ["linux-oxnas"]
 
 "googlegroups.com" = [
 	"clang-built-linux",
@@ -71,11 +51,61 @@ MAXDATE = 2030-01-01
 	"open-iscsi"
 ]
 
-"isely.net" = ["pvrusb2"]
+"groups.io" = [
+	"linux-oxnas"
+]
 
-"lists.cip-project.org" = ["cip-dev"]
+"isely.net" = [
+	"pvrusb2"
+]
 
-"lists.cs.columbia.edu" = ["kvmarm"]
+"kvack.org" = [
+	"linux-mm"
+]
+
+"linux-speakup.org" = [
+	"speakup"
+]
+
+"linux-xtensa.org" = [
+	"linux-xtensa"
+]
+
+"linuxdriverproject.org" = [
+	"driverdev-devel"
+]
+
+"lists.01.org" = [
+	"linux-nfc",
+	"linux-nvdimm"
+]
+
+"lists.bufferbloat.net" = [
+	"cake"
+]
+
+"lists.cip-project.org" = [
+	"cip-dev"
+]
+
+"lists.cs.columbia.edu" = [
+	"kvmarm"
+]
+
+"lists.ettus.com" = [
+	"usrp-users"
+]
+
+"lists.freedesktop.org" = [
+	"amd-gfx",
+	"dri-devel",
+	"etnaviv",
+	"freedreno",
+	"intel-gfx",
+	"intel-gvt-dev",
+	"nouveau",
+	"spice-devel"
+]
 
 "lists.infradead.org" = [
 	"ath10k",
@@ -90,29 +120,27 @@ MAXDATE = 2030-01-01
 	"linux-mtd",
 	"linux-nvme",
 	"linux-parport",
+	"linux-riscv",
 	"linux-rockchip",
 	"linux-rpi-kernel",
-	"linux-riscv",
 	"linux-snps-arc",
 	"linux-um",
 	"linux-unisoc",
 	"wcn36xx"
 ]
 
-"lists.librecores.org" = ["openrisc"]
+"lists.librecores.org" = [
+	"openrisc"
+]
 
 "lists.linaro.org" = [
 	"greybus-dev",
 	"linaro-mm-sig"
 ]
 
-"lists.linux.it" = ["ltp"]
-
-"lists.linbit.com" = ["drbd-dev"]
-
-"linuxdriverproject.org" = ["driverdev-devel"]
-
-"lists.linuxfoundation.org" = ["ksummit-discuss"]
+"lists.linbit.com" = [
+	"drbd-dev"
+]
 
 "lists.linux-foundation.org" = [
 	"bridge",
@@ -121,19 +149,41 @@ MAXDATE = 2030-01-01
 	"virtualization"
 ]
 
-"nongnu.org" = ["qemu-devel"]
+"lists.linux.it" = [
+	"ltp"
+]
 
-"lists.open-mesh.org" = ["b.a.t.m.a.n"]
+"lists.linuxfoundation.org" = [
+	"ksummit-discuss"
+]
 
-"lists.openwrt.org" = ["openwrt-devel"]
+"lists.one-eyed-alien.net" = [
+	"usb-storage"
+]
 
-"lists.orangefs.org" = ["devel"]
+"lists.open-mesh.org" = [
+	"b.a.t.m.a.n"
+]
 
-"lists.osmocom.org" = ["osmocom-net-gprs"]
+"lists.openwall.com" = [
+	"kernel-hardening"
+]
+
+"lists.openwrt.org" = [
+	"openwrt-devel"
+]
+
+"lists.orangefs.org" = [
+	"devel"
+]
 
 "lists.osdn.me" = [
-	"tomoyo-users-en",
-	"tomoyo-users"
+	"tomoyo-users",
+	"tomoyo-users-en"
+]
+
+"lists.osmocom.org" = [
+	"osmocom-net-gprs"
 ]
 
 "lists.ozlabs.org" = [
@@ -144,17 +194,21 @@ MAXDATE = 2030-01-01
 	"openbmc"
 ]
 
+"lists.samba.org" = [
+	"samba-technical"
+]
+
 "lists.sourceforge.net" = [
 	"ibm-acpi-devel",
 	"industrypack-devel",
 	"jfs-discussion",
 	"kgdb-bugreport",
 	"legousb-devel",
-	"linux1394-devel",
 	"linux-decnet-user",
 	"linux-f2fs-devel",
 	"linux-ntfs-dev",
 	"linux-uvc-devel",
+	"linux1394-devel",
 	"mjpeg-users",
 	"openipmi-developer",
 	"oprofile-list",
@@ -166,15 +220,33 @@ MAXDATE = 2030-01-01
 	"v9fs-developer"
 ]
 
-"lists.ubuntu.com" = ["apparmor"]
+"lists.ubuntu.com" = [
+	"apparmor"
+]
 
-"lists.one-eyed-alien.net" = ["usb-storage"]
+"lists.xenproject.org" = [
+	"xen-devel"
+]
 
-"lists.openwall.com" = ["kernel-hardening"]
+"lists.zx2c4.com" = [
+	"wireguard"
+]
 
-"osuosl.org" = ["intel-wired-lan"]
+"listserv.isdn4linux.de" = [
+	"isdn4linux"
+]
 
-"other.debian.org" = ["nbd"]
+"nongnu.org" = [
+	"qemu-devel"
+]
+
+"osuosl.org" = [
+	"intel-wired-lan"
+]
+
+"other.debian.org" = [
+	"nbd"
+]
 
 "redhat.com" = [
 	"blinux-list",
@@ -184,18 +256,14 @@ MAXDATE = 2030-01-01
 	"linux-cachefs"
 ]
 
-"lists.samba.org" = ["samba-technical"]
-
-"lists.zx2c4.com" = ["wireguard"]
-
-"linux-speakup.org" = ["speakup"]
-
 "st-md-mailman.stormreply.com" = [
 	"linux-stm32",
 	"uboot-stm32"
 ]
 
-"systeme.lip6.fr" = ["cocci"]
+"systeme.lip6.fr" = [
+	"cocci"
+]
 
 "vger.kernel.org" = [
 	"autofs",
@@ -209,10 +277,8 @@ MAXDATE = 2030-01-01
 	"io-uring",
 	"kernel-janitors",
 	"keyrings",
-	"kvm-ppc",
 	"kvm",
-	"lkml",
-	"netdev",
+	"kvm-ppc",
 	"linux-acpi",
 	"linux-alpha",
 	"linux-api",
@@ -256,15 +322,14 @@ MAXDATE = 2030-01-01
 	"linux-mmc",
 	"linux-modules",
 	"linux-next",
-	"linux-nilfs",
 	"linux-nfs",
+	"linux-nilfs",
 	"linux-omap",
 	"linux-parisc",
-	"live-patching",
+	"linux-pci",
 	"linux-pm",
 	"linux-ppp",
 	"linux-pwm",
-	"linux-pci",
 	"linux-raid",
 	"linux-rdma",
 	"linux-remoteproc",
@@ -272,15 +337,15 @@ MAXDATE = 2030-01-01
 	"linux-rtc",
 	"linux-s390",
 	"linux-samsung-soc",
-	"linux-security-module",
 	"linux-scsi",
 	"linux-sctp",
+	"linux-security-module",
 	"linux-serial",
+	"linux-sgx",
 	"linux-sh",
 	"linux-sparse",
 	"linux-spdx",
 	"linux-spi",
-	"linux-sgx",
 	"linux-tegra",
 	"linux-tip-commits",
 	"linux-trace-devel",
@@ -290,7 +355,10 @@ MAXDATE = 2030-01-01
 	"linux-wireless",
 	"linux-wpan",
 	"linux-xfs",
+	"live-patching",
+	"lkml",
 	"lvs-devel",
+	"netdev",
 	"netfilter-devel",
 	"platform-driver-x86",
 	"reiserfs-devel",
@@ -303,8 +371,3 @@ MAXDATE = 2030-01-01
 	"xdp-newbies"
 ]
 
-"listserv.isdn4linux.de" = ["isdn4linux"]
-
-"lists.xenproject.org" = ["xen-devel"]
-
-"linux-xtensa.org" = ["linux-xtensa"]
