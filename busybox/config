@@ -1,6 +1,5 @@
 [PaStA]
 ### Project name. Should not contain whitespaces ###
-PROJECT_NAME = "busybox"
 MODE = "mbox"
 
 ### necessary for upstream comparison. Patches within this range will be considered ###
