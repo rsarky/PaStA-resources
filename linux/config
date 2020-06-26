@@ -20,7 +20,13 @@ MINDATE = 1970-01-01
 MAXDATE = 2030-01-01
 
 [mbox.raw]
-# "hoster" = ["listname", "filename"]
+# [mbox.raw."hoster"]
+# "listname" = ["mbox-list-1", "mbox-list-2", ...]
+# "other-list" = ["mbox-list-3", "mbox-list-4", ...]
+#
+# [mbox.raw."other-hoster"]
+# "yet-another-list" = ["/mbox/list/5", ...]
+#
 # ...
 
 [mbox.pubin]
