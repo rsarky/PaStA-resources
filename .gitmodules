@@ -311,6 +311,9 @@
 [submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-arm-msm/0.git"]
 	path = linux/resources/mbox/pubin/vger.kernel.org/linux-arm-msm/0.git
 	url = https://lore.kernel.org/linux-arm-msm/0
+[submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-bcache/0.git"]
+	path = linux/resources/mbox/pubin/vger.kernel.org/linux-bcache/0.git
+	url = https://lore.kernel.org/linux-bcache/0
 [submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-csky/0.git"]
 	path = linux/resources/mbox/pubin/vger.kernel.org/linux-csky/0.git
 	url = https://lore.kernel.org/linux-csky/0
@@ -727,9 +730,6 @@
 [submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-arch/0.git"]
 	path = linux/resources/mbox/pubin/vger.kernel.org/linux-arch/0.git
 	url = https://github.com/linux-mailinglist-archives/linux-arch.vger.kernel.org.0
-[submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-bcache/0.git"]
-	path = linux/resources/mbox/pubin/vger.kernel.org/linux-bcache/0.git
-	url = https://github.com/linux-mailinglist-archives/linux-bcache.vger.kernel.org.0
 [submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-can/0.git"]
 	path = linux/resources/mbox/pubin/vger.kernel.org/linux-can/0.git
 	url = https://github.com/linux-mailinglist-archives/linux-can.vger.kernel.org.0
