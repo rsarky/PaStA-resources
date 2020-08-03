@@ -365,6 +365,7 @@ MAXDATE = 2030-01-01
 	"live-patching",
 	"lkml",
 	"lvs-devel",
+	"mm-commits",
 	"netdev",
 	"netfilter-devel",
 	"platform-driver-x86",
