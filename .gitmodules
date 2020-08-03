@@ -317,6 +317,9 @@
 [submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-csky/0.git"]
 	path = linux/resources/mbox/pubin/vger.kernel.org/linux-csky/0.git
 	url = https://lore.kernel.org/linux-csky/0
+[submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-dash/0.git"]
+	path = linux/resources/mbox/pubin/vger.kernel.org/linux-dash/0.git
+	url = https://lore.kernel.org/linux-dash/0
 [submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-doc/0.git"]
 	path = linux/resources/mbox/pubin/vger.kernel.org/linux-doc/0.git
 	url = https://lore.kernel.org/linux-doc/0

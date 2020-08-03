@@ -298,6 +298,7 @@ MAXDATE = 2030-01-01
 	"linux-clk",
 	"linux-crypto",
 	"linux-csky",
+	"linux-dash",
 	"linux-doc",
 	"linux-edac",
 	"linux-efi",
