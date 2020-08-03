@@ -225,6 +225,9 @@
 [submodule "linux/resources/mbox/pubin/lists.freedesktop.org/intel-gfx/0.git"]
 	path = linux/resources/mbox/pubin/lists.freedesktop.org/intel-gfx/0.git
 	url = https://lore.kernel.org/intel-gfx/0
+[submodule "linux/resources/mbox/pubin/lists.freedesktop.org/intel-gfx/1.git"]
+	path = linux/resources/mbox/pubin/lists.freedesktop.org/intel-gfx/1.git
+	url = https://lore.kernel.org/intel-gfx/1
 
 ## lists.infradead.org
 [submodule "linux/resources/mbox/pubin/lists.infradead.org/linux-mediatek/0.git"]
