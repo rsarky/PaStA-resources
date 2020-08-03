@@ -300,6 +300,7 @@ MAXDATE = 2030-01-01
 	"linux-csky",
 	"linux-dash",
 	"linux-doc",
+	"linux-dwarves",
 	"linux-edac",
 	"linux-efi",
 	"linux-embedded",

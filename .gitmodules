@@ -323,6 +323,9 @@
 [submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-doc/0.git"]
 	path = linux/resources/mbox/pubin/vger.kernel.org/linux-doc/0.git
 	url = https://lore.kernel.org/linux-doc/0
+[submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-dwarves/0.git"]
+	path = linux/resources/mbox/pubin/vger.kernel.org/linux-dwarves/0.git
+	url = https://lore.kernel.org/linux-dwarves/0
 [submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-edac/0.git"]
 	path = linux/resources/mbox/pubin/vger.kernel.org/linux-edac/0.git
 	url = https://lore.kernel.org/linux-edac/0
