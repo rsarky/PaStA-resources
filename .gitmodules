@@ -368,6 +368,9 @@
 [submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-pm/0.git"]
 	path = linux/resources/mbox/pubin/vger.kernel.org/linux-pm/0.git
 	url = https://lore.kernel.org/linux-pm/0
+[submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-pwm/0.git"]
+	path = linux/resources/mbox/pubin/vger.kernel.org/linux-pwm/0.git
+	url = https://lore.kernel.org/linux-pwm/0
 [submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-rdma/0.git"]
 	path = linux/resources/mbox/pubin/vger.kernel.org/linux-rdma/0.git
 	url = https://lore.kernel.org/linux-rdma/0
@@ -760,9 +763,6 @@
 [submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-ppp/0.git"]
 	path = linux/resources/mbox/pubin/vger.kernel.org/linux-ppp/0.git
 	url = https://github.com/linux-mailinglist-archives/linux-ppp.vger.kernel.org.0
-[submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-pwm/0.git"]
-	path = linux/resources/mbox/pubin/vger.kernel.org/linux-pwm/0.git
-	url = https://github.com/linux-mailinglist-archives/linux-pwm.vger.kernel.org.0
 [submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-raid/0.git"]
 	path = linux/resources/mbox/pubin/vger.kernel.org/linux-raid/0.git
 	url = https://github.com/linux-mailinglist-archives/linux-raid.vger.kernel.org.0
