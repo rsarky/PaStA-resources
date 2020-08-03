@@ -395,6 +395,9 @@
 [submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-spi/0.git"]
 	path = linux/resources/mbox/pubin/vger.kernel.org/linux-spi/0.git
 	url = https://lore.kernel.org/linux-spi/0
+[submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-tegra/0.git"]
+	path = linux/resources/mbox/pubin/vger.kernel.org/linux-tegra/0.git
+	url = https://lore.kernel.org/linux-tegra/0
 [submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-unionfs/0.git"]
 	path = linux/resources/mbox/pubin/vger.kernel.org/linux-unionfs/0.git
 	url = https://lore.kernel.org/linux-unionfs/0
@@ -778,9 +781,6 @@
 [submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-sh/0.git"]
 	path = linux/resources/mbox/pubin/vger.kernel.org/linux-sh/0.git
 	url = https://github.com/linux-mailinglist-archives/linux-sh.vger.kernel.org.0
-[submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-tegra/0.git"]
-	path = linux/resources/mbox/pubin/vger.kernel.org/linux-tegra/0.git
-	url = https://github.com/linux-mailinglist-archives/linux-tegra.vger.kernel.org.0
 [submodule "linux/resources/mbox/pubin/vger.kernel.org/linux-tip-commits/0.git"]
 	path = linux/resources/mbox/pubin/vger.kernel.org/linux-tip-commits/0.git
 	url = https://github.com/linux-mailinglist-archives/linux-tip-commits.vger.kernel.org.0
